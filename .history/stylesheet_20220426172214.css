@@ -415,10 +415,6 @@ footer b {
     text-align: end;
 }
 
-.service-text-2 h2 {
-    margin-bottom: 5%;
-}
-
 .service-text-2 * {
     color: white;
 }
@@ -441,10 +437,6 @@ footer b {
 .service-text-3 {
     margin-left: 5%;
     margin-right: 10%;
-}
-
-.service-text-3 h2 {
-    margin-bottom: 5%;
 }
 
 .service-text-3 * {

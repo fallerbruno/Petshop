@@ -127,7 +127,7 @@ nav a:hover {
     padding-top: 5%;
     padding-left: 4%;
     padding-right: 10%;
-   
+    font-weight: bold;
 }
 
 /* sobre */
@@ -208,7 +208,6 @@ nav a:hover {
     margin-top: auto;
     margin-bottom: 2%;
     padding-top: 10%;
-    font-weight: bold;
 }
 
 .column-product:hover {
@@ -399,10 +398,6 @@ footer b {
     margin-right: 10%;
 }
 
-.service-text-1 h2 {
-    margin-bottom: 5%;
-}
-
 .pagservicos-2 {
     display: flex;
     flex-direction: row-reverse;
@@ -413,10 +408,6 @@ footer b {
     margin-right: 5%;
     margin-left: 5%;
     text-align: end;
-}
-
-.service-text-2 h2 {
-    margin-bottom: 5%;
 }
 
 .service-text-2 * {
@@ -441,10 +432,6 @@ footer b {
 .service-text-3 {
     margin-left: 5%;
     margin-right: 10%;
-}
-
-.service-text-3 h2 {
-    margin-bottom: 5%;
 }
 
 .service-text-3 * {

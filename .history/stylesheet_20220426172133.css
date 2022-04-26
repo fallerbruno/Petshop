@@ -397,9 +397,6 @@ footer b {
 .service-text-1 {
     margin-left: 5%;
     margin-right: 10%;
-}
-
-.service-text-1 h2 {
     margin-bottom: 5%;
 }
 
@@ -413,10 +410,6 @@ footer b {
     margin-right: 5%;
     margin-left: 5%;
     text-align: end;
-}
-
-.service-text-2 h2 {
-    margin-bottom: 5%;
 }
 
 .service-text-2 * {
@@ -441,10 +434,6 @@ footer b {
 .service-text-3 {
     margin-left: 5%;
     margin-right: 10%;
-}
-
-.service-text-3 h2 {
-    margin-bottom: 5%;
 }
 
 .service-text-3 * {
