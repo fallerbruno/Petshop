@@ -14,12 +14,6 @@ body {
     margin: -8px;
 }
 
-
-.ajust-size {
-    width: 1100px;
-    margin-left: 10%;
-}
-
 /* Cabecalho fixo e suas definições */
 
 header {
@@ -33,23 +27,13 @@ header {
     background-color: white;
     height: 80px;
     filter: drop-shadow(1px 1px 3px #000);
-    z-index: 1;
+    z-index: 1
 }
 
 
 
 #logocolor {
-    width: 100%;
-    object-fit: cover;
-    object-position: 90% 45%;
-
-}
-
-.logocolor {
-    width: 275px;
-    margin-left: 10%;
-
-
+    width: 10%;
 }
 
 /* Definiçoes dos links de navegaçao da pagina */
@@ -58,7 +42,7 @@ header {
     padding-left: 10px;
     padding-right: 10px;
     text-align: end;
-
+    font-weight:500;
 }
 
 nav a:visited {
@@ -71,14 +55,9 @@ nav a:link {
 }
 
 nav a:hover {
+    width: 100%;
     color: #FF0077;
 }
-
-.nav-ajust {
-    text-align: end;
-    margin-right: 10%;
-}
-
 
 /* Banner */
 
@@ -112,15 +91,15 @@ nav a:hover {
     display: flex;
     padding-bottom: 10%;
     padding-top: 2%;
-    width: 100%;
-    text-align: center;
+    margin-left: 20%;
+    width: 60%;
+    align-items: center;
 }
 
 .column-services {
     height: 220px;
-    width: 550px;
-    margin-left: 20%;
-    margin-right: -20%;
+    width: 500px;
+
 }
 
 .service-image {
@@ -148,7 +127,7 @@ nav a:hover {
     padding-top: 5%;
     padding-left: 4%;
     padding-right: 10%;
-
+   
 }
 
 /* sobre */
@@ -160,10 +139,9 @@ nav a:hover {
 }
 
 #about p {
-    margin-right: -30%;
-    margin-left: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
     color: white;
-    font-size: 16px;
 }
 
 #about strong {
@@ -171,22 +149,29 @@ nav a:hover {
     font-size: 16px;
 }
 
+.whitelogo {
+    max-width: 1100px;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 100px;
+
+}
 
 #whitelogo {
-    width: 300px;
+    width: 200px;
     height: 50px;
     margin-top: 50px;
-    margin-left: 6%;
 }
 
 /* Produtos Venda */
 
 #Products {
-    text-align: center;
-
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 #Products h2 {
+    text-align: center;
     margin-top: 3%;
     margin-bottom: 3%;
 }
@@ -200,7 +185,7 @@ nav a:hover {
 
 .column-product {
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
     width: 13%;
     padding: 1%;
 }
@@ -276,7 +261,7 @@ nav a:hover {
 }
 
 .address-logo {
-    width: 30%;
+    width: 20%;
 }
 
 #address h4 {
@@ -365,7 +350,7 @@ footer b {
 #pag-sobre-text {
     float: right;
     width: 65%;
-    margin-left: -3%;
+    margin-left: 3%;
 }
 
 #pag-sobre-text p {
@@ -410,9 +395,8 @@ footer b {
 }
 
 .service-text-1 {
-    margin-left: -10%;
-    margin-right: 20%;
-    font-size: 16px;
+    margin-left: 5%;
+    margin-right: 10%;
 }
 
 .service-text-1 h2 {
@@ -426,8 +410,8 @@ footer b {
 }
 
 .service-text-2 {
-    margin-right: 10%;
-    font-size: 16px;
+    margin-right: 5%;
+    margin-left: 5%;
     text-align: end;
 }
 
@@ -455,8 +439,8 @@ footer b {
 }
 
 .service-text-3 {
-    margin-left: -10%;
-    margin-right: 20%;
+    margin-left: 5%;
+    margin-right: 10%;
 }
 
 .service-text-3 h2 {
@@ -502,6 +486,7 @@ footer b {
 
 #pag-faleconosco {
     margin-top: 150px;
+    margin-left: 5%;
 }
 
 
@@ -509,7 +494,6 @@ footer b {
     border: #858585;
     display: flex;
     justify-content: center;
-    margin-left: 30%;
 }
 
 #form * {
@@ -551,7 +535,7 @@ footer b {
     display: inline-block;
     margin-left: 2%;
     margin-top: 3%;
-
+    
 }
 
 #hour-faleconosco {
@@ -568,23 +552,21 @@ footer b {
 }
 
 .phone-faleconosco p {
-    color: #858585
+    color:#858585
 }
 
-form input:focus {
-    border: 1px solid #85858590;
-    outline: none !important;
-    box-shadow: 0 0 3px 2px #ffd8ea;
+form input:focus  {
+    border: 1px solid #85858590;     outline: none !important;     box-shadow: 0 0 3px 2px #ffd8ea; 
 }
 
 form select:focus {
-    border: 1px solid #85858590;
-    outline: none !important;
-    box-shadow: 0 0 3px 2px #ffd8ea;
+    border: 1px solid #85858590;     outline: none !important;     box-shadow: 0 0 3px 2px #ffd8ea; 
 }
 
 form textarea:focus {
-    border: 1px solid #85858590;
-    outline: none !important;
-    box-shadow: 0 0 3px 2px #ffd8ea;
+    border: 1px solid #85858590;     outline: none !important;     box-shadow: 0 0 3px 2px #ffd8ea; 
+}
+
+.ajust-size{
+    width: 1100px;
 }
