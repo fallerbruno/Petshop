@@ -577,7 +577,7 @@ form textarea:focus {
     border: 1px solid #85858590;     outline: none !important;     box-shadow: 0 0 3px 2px #ffd8ea; 
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 500px) {
     
 /*Home*/
 /*header */
@@ -611,11 +611,14 @@ header{
 
 .row-services {
     display: inline;
+    width: 400px;
 }
 
-.column-services{
-    width: 480px;
+.about-service{
+    padding-right: none;
 }
+
+
 /*produtos*/
 .column-product {
     width: 44%; 
@@ -884,9 +887,5 @@ iframe{
   .nav-container input[type="checkbox"]:checked ~ .logo{
     display: none;
   }
-
-    body {
-    overflow-x: hidden
-    }
-    
+  
 }

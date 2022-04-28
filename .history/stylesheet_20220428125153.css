@@ -884,9 +884,14 @@ iframe{
   .nav-container input[type="checkbox"]:checked ~ .logo{
     display: none;
   }
-
+  
+  html{
+    white-space:nowrap;
+    }
     body {
+    display:inline-block;
     overflow-x: hidden
     }
     
+  
 }

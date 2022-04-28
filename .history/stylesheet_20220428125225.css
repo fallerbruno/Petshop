@@ -885,8 +885,12 @@ iframe{
     display: none;
   }
 
+  html{
+    white-space:nowrap;
+    }
     body {
     overflow-x: hidden
     }
     
+  
 }

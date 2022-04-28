@@ -585,8 +585,12 @@ form textarea:focus {
 header{
     display: flex;
     flex-direction: row-reverse;
+
 }
 
+body{ 
+    margin-left:  -10%;
+}
 #logocolor {
     width: 60%;
     margin-left: -30%;
@@ -611,11 +615,14 @@ header{
 
 .row-services {
     display: inline;
+    width: 400px;
 }
 
-.column-services{
-    width: 480px;
+.about-service{
+    padding-right: none;
 }
+
+
 /*produtos*/
 .column-product {
     width: 44%; 
@@ -884,9 +891,5 @@ iframe{
   .nav-container input[type="checkbox"]:checked ~ .logo{
     display: none;
   }
-
-    body {
-    overflow-x: hidden
-    }
-    
+  
 }

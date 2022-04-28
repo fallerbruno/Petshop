@@ -611,10 +611,7 @@ header{
 
 .row-services {
     display: inline;
-}
-
-.column-services{
-    width: 480px;
+    margin: 0%;
 }
 /*produtos*/
 .column-product {
@@ -884,9 +881,5 @@ iframe{
   .nav-container input[type="checkbox"]:checked ~ .logo{
     display: none;
   }
-
-    body {
-    overflow-x: hidden
-    }
-    
+  
 }
