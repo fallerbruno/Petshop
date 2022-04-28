@@ -176,7 +176,10 @@ nav a:hover {
 
 /* Produtos Venda */
 
-
+#Products {
+    margin-left: 5%;
+    margin-right: 5%;
+}
 
 #Products h2 {
     text-align: center;
@@ -593,7 +596,6 @@ header{
 #banner {
     margin-top: 80px;
     height: 300px;
-    width: 480px;
 }
 /*servicos*/
 #services {

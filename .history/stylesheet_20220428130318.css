@@ -176,7 +176,10 @@ nav a:hover {
 
 /* Produtos Venda */
 
-
+#Products {
+    margin-left: 5%;
+    margin-right: 5%;
+}
 
 #Products h2 {
     text-align: center;
