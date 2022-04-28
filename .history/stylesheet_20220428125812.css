@@ -615,23 +615,20 @@ header{
 
 .column-services{
     width: 480px;
-}
 
-#about {
-    width: 480px;
+.about{
+    
 }
-
+}
 /*produtos*/
 .column-product {
     width: 44%; 
 }
 /*footer*/
-
 #address {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
 }
 
 address {
